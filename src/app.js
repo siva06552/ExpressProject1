@@ -7,6 +7,7 @@ const viewsPath = path.join(__dirname, '../templates');
 const publicDirectoryPath = path.join(__dirname, '../public');
 const partialsPath = path.join(__dirname, '../templates/partials');
 const getRecipeIds = require('./test');
+//comment to test git
 
 app.set('view engine', 'hbs');
 app.use(express.static(publicDirectoryPath));
